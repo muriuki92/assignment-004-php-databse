@@ -62,10 +62,10 @@ $conn = mysqli_connect($server,$username,$password,$database);
         <h1>About Us</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-           Sit modi inventore iste rem debitis, illum dicta hic veniam 
-           quisquam nostrum! Quisquam quibusdam accusantium commodi quasi
-            pariatur nihil? Numquam maxime consequatur, neque est eos tempore, 
-            omnis natus accusamus, quas debitis mollitia.
+          Sit modi inventore iste rem debitis, illum dicta hic veniam 
+          quisquam nostrum! Quisquam quibusdam accusantium commodi quasi
+          pariatur nihil? Numquam maxime consequatur, neque est eos tempore, 
+          omnis natus accusamus, quas debitis mollitia.
         </p>
         
 
@@ -80,7 +80,7 @@ $conn = mysqli_connect($server,$username,$password,$database);
                    
             </div>
             <div class="col-lg-6">
-                <img src="images/austin-poon-JO_S6ewBqAk-unsplash.jpg" alt="laptop">
+                <img src="images/LAPTOP.jpg" alt="laptop">
             </div>
             
         </div>
@@ -103,8 +103,8 @@ $conn = mysqli_connect($server,$username,$password,$database);
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur 
                           adipisicing elit. Cumque, magnam.</p>
                       <a href="#" class="btn btn-primary">Veiw Details</a>
-                    </div>
                   </div>
+              </div>
                   <!-- Card 1 Ends Here-->
                   
 
