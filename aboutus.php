@@ -51,6 +51,7 @@ $conn = mysqli_connect($server,$username,$password,$database);
                 <a href="#" class="nav-link ">Home</a>
                 <a href="aboutus.php" class="nav-link active ">About Us</a>
                 <a href="#" class="nav-link ">Contact Us</a>
+                <a href="enroll.php" class="nav-link">Register now</a>
              </div>
            </div>
        
@@ -70,6 +71,7 @@ $conn = mysqli_connect($server,$username,$password,$database);
         
 
     </main>
+    
     <!-- Our Program section starts here -->
     <div class="container py-5 px-5 bg-light ">
         <div class="row">

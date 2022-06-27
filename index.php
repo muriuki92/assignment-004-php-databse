@@ -1,44 +1,10 @@
-<?php
-// The database connection
-$server="localhost";
-$username="root";
-$password="";
-$database="zalego";
+<?php include('header.php')?>
+<?php include('process.php')?>
 
-$conn = mysqli_connect($server,$username,$password,$database);
 
-    if(isset($_POST ['submitButton']))
-    {
-      $email = $_POST['email'];
 
-      // submission of the data 
-      $insertData = mysqli_query($conn,
-        "INSERT INTO subscribers(email)
-         VALUES('$email')");
-         
-         if($insertData)
-         {
-          echo "Data Submitted Successfully";
-         }
-         else
-         {
-          echo "Error Occured";
-         }
-    }
 
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href=""style.css>
-    <title>Bootstrap grid layout</title>
-</head>
 <body>
     <!-- NAVIGATION BAR STARTS HERE  -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top shadow py-0 " >
@@ -53,6 +19,7 @@ $conn = mysqli_connect($server,$username,$password,$database);
                 <a href="index.php" class="nav-link active">Home</a>
                 <a href="aboutus.php" class="nav-link ">About Us</a>
                 <a href="#" class="nav-link ">Contact Us</a>
+                <a href="enroll.php" class="nav-link">Register now</a>
              </div>
            </div>
        
