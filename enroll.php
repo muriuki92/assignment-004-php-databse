@@ -46,7 +46,7 @@
 </main>
     <!-- JULY CAMP ENDS HERE -->
 
-    <div class="container col-lg-12 p-0">
+    <div class="container col-lg-12 p-0 text-center">
         <p>
                   <br>Looking for a place to kickstart your career in technology?<br>
             whether you're a local,new in  town or just crushing through we've got<br> 
@@ -54,37 +54,37 @@
         </p>
     </div>
     <!-- SIGN UP STARTS HERE -->
-    <form action="enroll.php" method="POST">
-    <div class="kind container col-lg-12 px-5 bg-light ">
+    <form action="enroll.php" method="POST" >
+    <div class="kind container col-lg-12 px-5 ">
     
-       <h2 class="patience text-secondary">Sign up today?</h2>
+       <h2 class="patience text-secondary text-center">Sign up today?</h2>
     
-     <div class="row">
+   <div class="row shadow p-3 mb-5 bg-body">
      
-                <div class="mb-3 px-5 py-5 col-lg-6" >
+             <div class="mb-3 px-5 py-5 col-lg-6" >
                     <label for="FullName"  class="form-label"><h6> Full Name:</h6></label>
-                    <input type="text" name="fullname" class="joy shadow form-control" placeholder=" Enter Your full Name" >
+                    <input type="text" name="fullname" class=" form-control" placeholder=" Enter Your full Name" >
                     
                   </div>
   
                   <div class="mb-3 px-5 py-5 col-lg-6">
                       <label for="PhoneNumber" class="form-label"><h6>Phone Number: </h6></label>
-                      <input type="tell"  name ="phonenumber" class=" joy shadow form-control" placeholder="+2547..." >
+                      <input type="tell"  name ="phonenumber" class="form-control" placeholder="+2547..." >
                       
                     </div>
-               </div>
+               
 
-               <div class="row">
+               <div class="row ">
                 <div class="mb-3 px-5 col-lg-6" >
                     <label for="EmailAddress"  class="form-label"><h6>Email Address:</h6></label>
-                    <input type="tel" name="email" class=" joy shadow form-control" placeholder="Please Enter Your Phone Number" >
+                    <input type="email" name="email" class="  form-control" placeholder="Please Enter Your Phone Number" >
                     
                   </div>
   
                   <div class="mb-3 px-5  col-lg-6">
                       <label for="What'sYourGender"  class="form-label"><h6>What's Your Gender?</h6></label>
                       
-                      <select class="form-select joy shadow form-control" name="gender" type="email"  aria-label="Default select example">
+                      <select class="form-select  form-control" name="gender" aria-label="Default select example">
                        <option selected><h1>--Select Your Gender--</h1></option>
                        <option value="Male">Male</option>
                        <option value="Female">Female</option>
@@ -104,7 +104,7 @@
                <div class="row">
                 
   
-                  <div class="mb-3 px-5 col-lg-12">
+                  <div class="mb-3 px-5 col-lg-6">
                     <label for="Course"  class="form-label"><h6>What's Your Preffered Course?</h6></label>
                       
                     <select  class="form-select joy shadow form-control" name="course"  aria-label="Default select example">
@@ -127,11 +127,11 @@
                <div class="row">
                 <div class="col-lg-12 px-5 mb-3">
                 <div class="form-check">
-  <input class="form-check-input" name="check" type="checkbox" value="SUBMIT" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    <h6>Agree Terms And Conditions.</h6>
-  </label>
-</div>
+                    <input class="form-check-input" name="check" type="checkbox" value="SUBMIT" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <h6>Agree Terms And Conditions.</h6>
+                    </label>
+                  </div>
                 </div>
                </div>
                <br>
@@ -146,7 +146,7 @@
                
                    
                </form>
-                </div>
+    </div>
                </div>
 
                 
@@ -158,29 +158,29 @@
 
     <!-- subscribe part starts here -->
     <div class="row ">
-                <div class=" ping col-lg-12 px-5 mb-3 text-secondary">
-                    <p text-align="center"><h6>Subscribe to get information,latest news about <br>
+      <div class="container text-center" >
+                <div class="col-lg-12 px-5 mb-3 ">
+                    <p><h6>Subscribe to get information,latest news about <br>
                            Zalego Academy.</h6></p>
-
-                </div>
-                </div>
-
-                <div class="container">
+                
+      </div>
+         
+  <div class="container">
       <form action="aboutus.php" method="POST">
-     
 
-        <div class=" row g-2 px-5 pt-0  align-items-center">
-        <div class="col-lg-6 px-5 ">
+        <div class=" row align-items-center mb-3 g-3">
+        <div class="col-lg-6 px-2 ">
               <input type="email" name ="email" id="inputemail" class="form-control" placeholder="Your email address" >
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-auto">
             <button class="btn btn-primary" name="submitButton" type="submit" >Subscribe</button>
             </div>
               
             
           </div>
       </form>
-      </div>
+  </div>
+    
                
     <!-- subscribe part ends here -->
     <hr>
